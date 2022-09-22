@@ -1,0 +1,8 @@
+.main-container{
+    position: relative;
+}
+.card-container{
+    position: absolute;
+    right: 2rem;
+    width: 120px;
+}

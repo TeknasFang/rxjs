@@ -1,0 +1,7 @@
+<button (click)="fetch()">Fetch data</button>
+<br>
+<span *ngIf="fetching" style="color: green;">Fetching</span>
+<br>
+<span *ngIf="error" style="color:red ;">Error</span>
+
+<button #btn style="display:none ;">debounceTime</button>
